@@ -1,0 +1,33 @@
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.form-control-dark {
+  color: rgba(75, 70, 70, 0.329);
+  background-color: darkblue;
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  color: rgb(70, 70, 70);
+  background-color: darkblue;
+  border-color: rgb(190, 14, 14);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
